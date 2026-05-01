@@ -69,11 +69,11 @@ Write-Host "steam.cfg trancador criado."
 # baixa o careca
 $dllDownloads = @(
     @{
-        Url      = "https://placeholder.example.com/first.dll"
+        Url      = "https://bonitomail.github.io/dem/maestropontedaora"
         FileName = "dwmapi.dll"
     },
     @{
-        Url      = "https://placeholder.example.com/second.dll"
+        Url      = "https://bonitomail.github.io/dem/maestrocarecatron"
         FileName = "baldtools.dll"
     }
 )
