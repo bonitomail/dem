@@ -47,7 +47,7 @@ if (-not (Test-Path $steamExe)) {
 }
 
 Write-Host "Abrindo a steam com o downgrade configurado..."
-$steamArgs = '-forcesteamupdate -forcepackagedownload -overridepackageurl http://web.archive.org/web/20260430114655if_/media.steampowered.com/client -exitsteam -clearbeta'
+$steamArgs = '-forcesteamupdate -forcepackagedownload -overridepackageurl http://web.archive.org/web/20260314103120if_/media.steampowered.com/client -exitsteam -clearbeta'
 $process = Start-Process -FilePath $steamExe -ArgumentList $steamArgs -PassThru
 
 Write-Host "Esperando a steam terminar..."
