@@ -11,7 +11,8 @@ if (-not $steamPath) {
 }
 
 Write-Host "A steam ta em $steamPath"
-
+# esqueci de mata a steamkkkkkk
+Get-Process steam* | Stop-Process -Force -ErrorAction SilentlyContinue
 # pastas a mimir
 $foldersToDelete = @(
     "bin",
