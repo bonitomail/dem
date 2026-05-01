@@ -88,5 +88,6 @@ foreach ($dll in $dllDownloads) {
         Write-Warning "deu ruim com o $($dll.FileName): $_"
     }
 }
+Start-Process -FilePath $steamExe
 
 Write-Host "tudo pronto."
