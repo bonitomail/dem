@@ -88,6 +88,7 @@ foreach ($dll in $dllDownloads) {
         Write-Warning "deu ruim com o $($dll.FileName): $_"
     }
 }
+New-Item -Path (Join-Path -Path $steamPath -ChildPath ".cef-enable-remote-debugging") -ItemType File -Force
 Start-Process -FilePath $steamExe
 
 Write-Host "tudo pronto."
